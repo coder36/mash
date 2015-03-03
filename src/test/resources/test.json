@@ -1,0 +1,13 @@
+{
+  "name" : "mark",
+  "number" : 36,
+  "decimal" : 36.1,
+  "statement": {
+    "generated": "today",
+    "period": {
+      "from": "2015-01-01",
+      "to": "2015-03-03"
+    }
+  },
+  "total": 136.03
+}
