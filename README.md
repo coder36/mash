@@ -7,7 +7,7 @@ Mash is a wrapper for a deeply nested map of maps.  It simplifies navigating jso
 Building using maven
 --------------------
 
-    git clone https://github.com/coder36/mash.git
+    git clone http://github.com/coder36/mash.git
     cd mash
     mvn clean install
  
@@ -17,7 +17,7 @@ The mash-1.0.jar file will be built into the target folder.
 Example
 -------
 
-The url: https://pure-savannah-9942.herokuapp.com/bill.json serves up
+The url: http://pure-savannah-9942.herokuapp.com/bill.json serves up
 
         {
           "statement": {
@@ -32,7 +32,7 @@ The url: https://pure-savannah-9942.herokuapp.com/bill.json serves up
 
 Read in the json, then wrap in Mash:
 
-        Mash json = new Mash( (Map) new RestTemplate().getForObject( "https://pure-savannah-9942.herokuapp.com/bill.json", Map.class ));
+        Mash json = new Mash( (Map) new RestTemplate().getForObject( "http://pure-savannah-9942.herokuapp.com/bill.json", Map.class ));
 
 Accessing properties is as simple as:
 
