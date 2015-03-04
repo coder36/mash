@@ -4,6 +4,15 @@ Java Mash
 Mash is a wrapper for a deeply nested map of maps.  It simplifies navigating json structures, providing property like
  access to the data.
 
+Building using maven
+--------------------
+
+    git clone https://github.com/coder36/mash.git
+    cd mash
+    mvn clean install
+ 
+The mash-1.0.jar file will be built into the target folder.
+
 
 Example
 -------
